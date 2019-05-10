@@ -1,0 +1,15 @@
+{
+  "name": "vue_wp_plugin",
+  "description": "",
+  "homepage": "https://re9sites.com",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0+",
+  "require": {
+    "composer/installers": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "VWP\\": "classes/"
+    }
+  }
+}
